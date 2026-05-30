@@ -49,7 +49,7 @@ const products = [
     category: "Plywood Furniture",
     type: "Beds",
     image: plywood2,
-    desc: "Comfortable and stylish plywood sofa design.",
+    desc: "Comfortable and stylish plywood sofa design. ",
   },
   {
     id: 3,
