@@ -23,20 +23,16 @@ import bed1 from "../images/bed/bed1.webp";
 import sofa1 from "../images/sofa/sofa1.jpg";
 import sofa2 from "../images/sofa/sofa2.webp";
 import sofa3 from "../images/sofa/sofa3.webp";
+import sofa4 from "../images/sofa/sofa4.webp";
+import sofa5 from "../images/sofa/sofa5.jpg";
+import sofa6 from "../images/sofa/sofa6.jpg";
 
 // kabat
 import kabat1 from "../images/kabat/kabat1.webp";
 import kabat2 from "../images/kabat/kabat2.jpg";
 import kabat3 from "../images/kabat/kabat3.jpg";
 
-const categories = [
-  "All",
-  "PLB Furniture",
-  "Plywood Furniture",
-  "Beds",
-  "Sofas",
-  "Kabats",
-];
+const categories = ["All", "PLB Furniture", "Plywood Furniture", "Sofas"];
 
 const products = [
   {
@@ -186,6 +182,30 @@ const products = [
     image: kabat3,
     desc: "Premium wardrobe designed for modern interiors.",
   },
+  {
+    id: 20,
+    name: "Aesthetic L-Shaped Sofa",
+    category: "Plywood Furniture",
+    type: "Sofas",
+    image: sofa4,
+    desc: "Contemporary L-shaped sofa with premium comfort and elegant aesthetics for modern interiors.",
+  },
+  {
+    id: 21,
+    name: "Modern Luxury Sofa",
+    category: "PLB Furniture",
+    type: "Sofas",
+    image: sofa5,
+    desc: "Sophisticated luxury sofa featuring refined craftsmanship and exceptional seating comfort.",
+  },
+  {
+    id: 22,
+    name: "Premium Designer Sofa",
+    category: "Plywood Furniture",
+    type: "Sofas",
+    image: sofa6,
+    desc: "Elegant designer sofa crafted to elevate living spaces with style, comfort, and durability.",
+  },         
 ];
 
 export default function Products() {
