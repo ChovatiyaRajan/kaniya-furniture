@@ -1,0 +1,6 @@
+{
+  "name": "Kanaiya Furniture",
+  "description": "Premium luxury furniture manufacturing company offering wooden furniture, custom furniture solutions, sofas, beds, and kabats. Crafted with quality since 1991.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
