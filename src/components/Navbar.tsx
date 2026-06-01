@@ -79,23 +79,23 @@ export default function Navbar() {
             onClick={(e) => scrollToSection(e, '#home')}
             className="group relative flex flex-col z-50"
           >
-            <span className={cn(
+            <h1 className={cn(
               "font-serif text-2xl md:text-3xl font-bold tracking-tight transition-colors duration-300",
               isScrolled ? "text-primary" : "text-white"
             )}>
               Kanaiya Furniture
-            </span>
-            <span className={cn(
+            </h1>
+            <h2 className={cn(
               "text-[10px] uppercase tracking-widest absolute -bottom-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300",
               isScrolled ? "text-accent" : "text-white/80"
             )}>
               Since 1991
-            </span>
+            </h2>
           </a>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-1">
-            {navItems.map((item) => (
+            {navItems.map((item) => ( 
               <a
                 key={item.name}
                 href={item.href}
